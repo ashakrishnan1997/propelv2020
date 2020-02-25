@@ -33,17 +33,19 @@ public class UserServlet extends HttpServlet {
 		super();
 
 	}
-
+//do post method is used to post the information to the server 
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
 
 	}
-
+//calling doget from dopost
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
-
+ //getting the action
 		String action = request.getServletPath();
+		//use try catch for exce ption handling 
+		//use switch case 
 		try {
 			switch (action) {
 			case "/new":
