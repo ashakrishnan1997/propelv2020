@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+input {
+  border: #000;
+  padding: 10px;
+  font-size: 1.2em !important;
+  width: 100%;
+  color: blue !important;
+  
+}
+input::placeholder {
+  color: red !important;
+}
+
+select { 
+	font-size: 1.2em !important;
+	color: blue !important;
+}
+.nav-link :Hover
+{
+	background-color: white;
+}
